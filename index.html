@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title> Youtube Clone </title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="styles/general.css">
+            <link rel="stylesheet" href="styles/header.css">
+            <link rel="stylesheet" href="styles/video.css">
+            <link rel="stylesheet" href="styles/sidebar.css">
+    
+        </head>
+    <body>
+
+        <header class="header">
+             <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+
+            <div class="middle-section">
+                <input class="search" type="text" placeholder="Search">
+                <button class="search-button"> <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button"> 
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            
+            </div>
+
+            <div class="right-section">
+                <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip"> Create </div>
+            </div>
+                <div class="yt-app-icon-container">
+                    <img class="yt-app-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip"> Youtube applications </div>
+                </div>
+                
+                <div class="notification-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="tooltip"> Notifications </div>
+                    <div class="notification-icon-count"> 3 </div>
+                 </div>
+                
+                <img class="current-user-picture" src="channel-logo/my-channel.jpeg">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <dev class="sidebar-link">
+                <img src="sidebar/home.svg">
+                <div> Home </div>
+            </dev>
+            <dev class="sidebar-link">
+                <img src="sidebar/explore.svg">
+                <div> Explore </div>
+            </dev>
+            <dev class="sidebar-link">
+                <img src="sidebar/subscriptions.svg">
+                <div> Subscriptions </div>
+            </dev>
+            <dev class="sidebar-link">
+                <img src="sidebar/originals.svg">
+                <div> Originals </div>
+            </dev>
+            <dev class="sidebar-link">
+                <img src="sidebar/youtube-music.svg">
+                <div> Youtube Music </div>
+            </dev>
+            <dev class="sidebar-link">
+                <img src="sidebar/library.svg">
+                <div> Library </div>
+            </dev>
+        </nav>
+        <main>
+        <section class="video-grid">
+        <div class="video">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/TJ2ifmkGGus" target="_blank">
+                <img class="thumbnail" src="video-thumbnails/mrBeastt.webp">
+            </a>
+                <div class="video-time"> 8:00
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="picture">
+                    <img class="pfp" src="channel-logo/mrBeast.jpg">
+                </div>
+                <div class="info">
+                    <p class="title">
+                        1,000 Blind People See For The First Time
+                    </p>
+                    <p class="author">
+                        MrBeast
+                    </p>
+                    <p class="stats">
+                        130M views &#183; 2 months ago
+                    </p>
+                </div>  
+            </div>
+        </div>
+
+    <div class="video">
+        <div class="thumbnail-row">
+            <a href="https://youtu.be/qInpTzddyeE" target="_blank"> <img class="thumbnail" src="video-thumbnails/playlist.webp" > </a>
+            <div class="video-time"> 1:12:04
+            </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="picture"> 
+                <img class="pfp" src="channel-logo/channels4_profile.jpg">
+            </div>
+        <div class="info">
+            <p class="title">
+                pov: you're studying and listening to music while it's raining (a dark academia playlist)
+            </p>
+            <p class="author">
+                Kai edger
+            </p>
+            <p class="stats">
+                802k views &#183; 7 months ago
+            </p>
+        </div>
+        </div>   
+    </div>
+
+    <div class="video">
+        <div class="thumbnail-row">
+            <a href="https://youtu.be/G3e-cpL7ofc" target="_blank">
+            <img class="thumbnail" src="video-thumbnails/course.webp"> </a>
+            <div class="video-time"> 6:31:24
+            </div>
+        </div>
+        <div class="video-info-grid">
+            <div class="picture">
+                <img class="pfp" src="channel-logo/unnamed.jpg">
+                </div>
+            <div class="info">
+                <p class="title">
+                    HTML & CSS Full Course - Beginner to Pro
+                </p>
+                <p class="author">
+                    SuperSimpleDev
+                </p>
+                <p class="stats">
+                    3.6M views &#183; 1 year ago
+                </p>
+            </div>  
+        </div>
+    </div>
+
+<div class="video">
+    <div class="thumbnail-row">
+        <a href="https://youtu.be/cBavoLbuDBw" target="_blank">
+        <img class="thumbnail" src="video-thumbnails/acting.webp"> </a>
+        <div class="video-time"> 2:41
+        </div>
+    </div>
+    <div class="video-info-grid">
+        <div class="picture"> 
+            <img class="pfp" src="channel-logo/acting-logo.jpg">
+        </div>
+    <div class="info">
+        <p class="title">
+            The Art of Acting
+        </p>
+        <p class="author">
+            TheGaroStudios
+        </p>
+        <p class="stats">
+            1.1M views &#183; 2 years ago
+        </p>
+    </div>
+    </div>   
+</div>
+
+
+<div class="video">
+    <div class="thumbnail-row">
+        <a href="https://youtu.be/rPgaYeq9NvI" target="_blank">
+        <img class="thumbnail" src="video-thumbnails/halsey.webp"> </a>
+        <div class="video-time"> 3:56
+        </div>
+    </div>
+    <div class="video-info-grid">
+        <div class="picture">
+            <img class="pfp" src="channel-logo/halsey.jpg">
+        </div>
+        <div class="info">
+            <p class="title">
+                Halsey - Graveyard
+            </p>
+            <p class="author">
+                Halsey
+            </p>
+            <p class="stats">
+                62M views &#183; 3 years ago
+            </p>
+        </div>  
+    </div>
+</div>
+
+<div class="video">
+<div class="thumbnail-row">
+    <a href="https://youtu.be/sEetXo3R-aM" target="_blank">
+    <img class="thumbnail" src="video-thumbnails/ldr.webp"> </a>
+    <div class="video-time"> 3:43
+    </div>
+</div>
+<div class="video-info-grid">
+    <div class="picture"> 
+        <img class="pfp" src="channel-logo/ldr.jpg">
+    </div>
+<div class="info">
+    <p class="title">
+        Diet Mountain Dew
+    </p>
+    <p class="author">
+        Lana Del Rey
+    </p>
+    <p class="stats">
+        21M views &#183; 2 years ago
+    </p>
+</div>
+</div>   
+</div>
+        </section>
+    </main>
+</body>
+</html>
